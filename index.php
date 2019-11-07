@@ -10,7 +10,7 @@
     A basic php page
   </h1>
    <?php
-     echo "Hello World.. this is a test php application"
+     // echo "Hello World.. this is a test php application"
      $dbhost = getenv("MYSQL_SERVICE_HOST");
      $dbport = getenv("MYSQL_SERVICE_PORT");
      $dbuser = getenv("databaseuser");
