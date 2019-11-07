@@ -27,7 +27,7 @@
        <p>The app is connected to the MySql database running on <b><?php echo $dbhost ?>:<?php echo $dbport ?> </b> of the Openshift container</p>
        <p><b>Database name: <?php echo $dbname ?> </b></p>
        <br><br>
-       Data from the users table: <br/>
+       Data fetched from the users table: <br/>
       <?php
      }
       $sql = "SELECT * FROM users";
@@ -35,7 +35,7 @@
 
       if ($result->num_rows > 0) {
           while($row = $result->fetch_assoc()) {
-              echo "Name: <b>" . $row["username"] . "</b> <br>";
+              echo "Name: <b>" . $row["username"] . "</b><br>";
           }
       } else {
           echo "0 results";
