@@ -27,7 +27,7 @@
        <p>The app is connected to the MySql database running on <b><?php echo $dbhost ?>:<?php echo $dbport ?> </b> of the Openshift container</p>
        <p><b>Database name: <?php echo $dbname ?> </b></p>
        <br><br>
-       Data from the users table:
+       Data from the users table: <br/>
       <?php
      }
       $sql = "SELECT * FROM users";
@@ -40,7 +40,7 @@
       } else {
           echo "0 results";
       }
-           
+
      $connection->close();
     ?>
   </center>
