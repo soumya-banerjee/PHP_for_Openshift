@@ -1,26 +1,25 @@
- <!--
-      This is the minimum valid AMP HTML document. Type away
-      here and the AMP Validator will re-check your document on the fly.
- -->
+<?php
+  // echo "Hello World.. this is a test php application"
+  $dbhost = getenv("MYSQL_SERVICE_HOST");
+  $dbport = getenv("MYSQL_SERVICE_PORT");
+  $dbuser = getenv("databaseuser");
+  $dbpwd = getenv("databasepassword");
+  $dbname = getenv("databasename");
+  $connection = new mysqli($dbhost, $dbuser, $dbpwd, $dbname);
+
+?>
  <!doctype html>
- <html ⚡>
+ <html>
  <body>
    <center>
   <h1>
     A basic php page
   </h1>
-   <?php
-     // echo "Hello World.. this is a test php application"
-     $dbhost = getenv("MYSQL_SERVICE_HOST");
-     $dbport = getenv("MYSQL_SERVICE_PORT");
-     $dbuser = getenv("databaseuser");
-     $dbpwd = getenv("databasepassword");
-     $dbname = getenv("databasename");
-     $connection = new mysqli($dbhost, $dbuser, $dbpwd, $dbname);
+    <?php
      if ($connection->connect_errno) {
-      ?>
+    ?>
         <p>Could not connect to the database </p>
-      <?php
+    <?php
          exit();
      } else {
        ?>
