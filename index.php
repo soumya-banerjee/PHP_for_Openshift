@@ -24,8 +24,8 @@
        <br><br>
        <hr/>
        <br>
-       <p>The app is connected to the database on the container running on <?php echo $dbhost ?>:<?php echo $dbport ?> of the Openshift container</p>
-       <p>Database name: <?php echo $dbname ?> </p>
+       <p>The app is connected to the MySql database on the container running on <b><?php echo $dbhost ?>:<?php echo $dbport ?> </b> of the Openshift container</p>
+       <p><b>Database name: <?php echo $dbname ?> </b></p>
       <?php
      }
      $connection->close();
