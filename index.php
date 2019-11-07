@@ -1,12 +1,10 @@
 <?php
-  // echo "Hello World.. this is a test php application"
   $dbhost = getenv("MYSQL_SERVICE_HOST");
   $dbport = getenv("MYSQL_SERVICE_PORT");
   $dbuser = getenv("databaseuser");
   $dbpwd = getenv("databasepassword");
   $dbname = getenv("databasename");
   $connection = new mysqli($dbhost, $dbuser, $dbpwd, $dbname);
-
 ?>
  <!doctype html>
  <html>
