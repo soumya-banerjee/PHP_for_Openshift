@@ -10,8 +10,8 @@
  <html>
  <body>
    <center>
-  <h1 style="color: RED">
-    : BASIC PHP PAGE WITH OPENSHIFT :
+  <h1 style="color: BLUE">
+    BASIC PHP PAGE WITH OPENSHIFT
   </h1>
     <?php
      if ($connection->connect_errno) {
@@ -21,7 +21,7 @@
          exit();
      } else {
        ?>
-       <br><br>
+       <br>
        <hr/>
        <br>
        <p>The app is connected to the MySQL database running on <b><?php echo $dbhost ?>:<?php echo $dbport ?> </b> of the Openshift container</p>
