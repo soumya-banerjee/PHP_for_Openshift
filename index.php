@@ -10,7 +10,7 @@
  <html>
  <body>
    <center>
-  <h1 style="color: RED">
+  <h1 style="color: PURPLE">
     BASIC PHP PAGE WITH OPENSHIFT CONTAINER
   </h1>
     <?php
