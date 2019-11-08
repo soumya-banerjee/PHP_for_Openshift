@@ -10,7 +10,7 @@
  <html>
  <body>
    <center>
-  <h1 style="color: yellow">
+  <h1 style="color: green">
     A basic php page
   </h1>
     <?php
