@@ -10,7 +10,7 @@
  <html>
  <body>
    <center>
-  <h1 style="color: blue">
+  <h1 style="color: GREEN">
     BASIC PHP PAGE WITH OPENSHIFT - UPDATED
   </h1>
     <?php
