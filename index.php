@@ -11,7 +11,7 @@
  <body>
    <center>
   <h1 style="color: blue">
-    BASIC PHP PAGE WITH OPENSHIFT - UPDATED2
+    BASIC PHP PAGE WITH OPENSHIFT - UPDATED
   </h1>
     <?php
      if ($connection->connect_errno) {
