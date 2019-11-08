@@ -10,8 +10,8 @@
  <html>
  <body>
    <center>
-  <h1 style="color: GRAY">
-    BASIC PHP PAGE WITH OPENSHIFT
+  <h1 style="color: RED">
+    : BASIC PHP PAGE WITH OPENSHIFT :
   </h1>
     <?php
      if ($connection->connect_errno) {
