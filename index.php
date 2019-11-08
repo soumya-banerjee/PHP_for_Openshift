@@ -11,7 +11,7 @@
  <body>
    <center>
   <h1 style="color: blue">
-    A basic php page
+    BASIC PHP PAGE
   </h1>
     <?php
      if ($connection->connect_errno) {
