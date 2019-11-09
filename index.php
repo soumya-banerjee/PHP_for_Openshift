@@ -25,8 +25,8 @@
 
  <body>
    <center>
-  <h1 style="color: BLACK">
-    BASIC PHP PAGE
+  <h1 style="color: RED">
+    BASIC PHP PAGE - UPDATED
   </h1>
     <?php
      if ($connection->connect_errno) {
