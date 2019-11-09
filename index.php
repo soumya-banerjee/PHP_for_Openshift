@@ -29,10 +29,10 @@
        <br><br>
        Data fetched from the users table: <br/>
        <table border="1">
-         <th>
-           <td>USERID</td>
-           <td>NAME</td>
-         </th>
+         <tr>
+           <th>USERID</th>
+           <th>NAME</th>
+         </tr>
       <?php
      }
       $sql = "SELECT * FROM users";
