@@ -43,7 +43,7 @@
        <p><b>Database name: <?php echo $dbname ?> </b></p>
        <br><br>
        Data fetched from the users table: <br/>
-       <table border="1">
+       <table>
          <tr>
            <th>USERID</th>
            <th>NAME</th>
