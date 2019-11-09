@@ -29,6 +29,10 @@
        <br><br>
        Data fetched from the users table: <br/>
        <table border="1">
+         <th>
+           <td>USERID</td>
+           <td>NAME</td>
+         </th>
       <?php
      }
       $sql = "SELECT * FROM users";
