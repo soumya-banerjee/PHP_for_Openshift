@@ -28,6 +28,7 @@
        <p><b>Database name: <?php echo $dbname ?> </b></p>
        <br><br>
        Data fetched from the users table: <br/>
+       <table border="1">
       <?php
      }
       $sql = "SELECT * FROM users";
@@ -35,7 +36,7 @@
 
       if ($result->num_rows > 0) {
           while($row = $result->fetch_assoc()) {
-            echo "Name: <b>" . $row["username"] . "</b><br>";
+            echo "<tr> <td>". $row["user_id"] ." </td> <td><b>" . $row["username"] . "</b></td></tr>";
           }
       } else {
           echo "0 results";
@@ -43,6 +44,7 @@
 
      $connection->close();
     ?>
+    </table>
   </center>
  </body>
  </html>
