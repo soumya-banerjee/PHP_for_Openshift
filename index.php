@@ -13,7 +13,6 @@
    <style>
     table {
       border-collapse: collapse;
-      width: 100%;
     }
 
     th, td {
