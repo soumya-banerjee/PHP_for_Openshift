@@ -8,6 +8,22 @@
 ?>
  <!doctype html>
  <html>
+
+ <head>
+   <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+  </style>
+ </head>
+
  <body>
    <center>
   <h1 style="color: BLACK">
