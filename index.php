@@ -18,14 +18,14 @@
     th, td {
       padding: 8px;
       text-align: left;
-      border-bottom: 1px solid #000;
+      border-bottom: 1px solid #ddd;
     }
   </style>
  </head>
 
  <body>
    <center>
-  <h1 style="color: RED">
+  <h1 style="color: BLACK">
     BASIC PHP PAGE - UPDATED
   </h1>
     <?php
