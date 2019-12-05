@@ -18,7 +18,7 @@
     th, td {
       padding: 8px;
       text-align: left;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #000;
     }
   </style>
  </head>
