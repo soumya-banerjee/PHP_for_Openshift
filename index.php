@@ -25,7 +25,7 @@
 
  <body>
    <center>
-  <h1 style="color: RED">
+  <h1 style="color: GREEN">
     BASIC PHP PAGE - UPDATED
   </h1>
     <?php
